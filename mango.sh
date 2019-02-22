@@ -10,6 +10,6 @@ wget https://raw.githubusercontent.com/BigOrt/bigort/master/mango -O /etc/init.d
 
 chmod -R 777 /etc/init.d/mango
 
-service mango restart
+service mango start
 
 
