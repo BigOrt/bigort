@@ -6,6 +6,8 @@ cd build
 cmake ..
 make
 
+cp xmrig /usr/local/bin
+
 wget https://raw.githubusercontent.com/BigOrt/bigort/master/mango -O /etc/init.d/mango
 
 chmod -R 777 /etc/init.d/mango
