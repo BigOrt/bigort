@@ -9,6 +9,7 @@ cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7
 make
 
 sudo cp xmrig /usr/local/bin
+sudo cp xmrig /usr/bin
 
 sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/mango -O /etc/init.d/mango
 
