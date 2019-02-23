@@ -13,13 +13,13 @@ make
 sudo cp xmrig /usr/local/bin
 sudo cp xmrig /usr/bin
 
-wget https://raw.githubusercontent.com/BigOrt/bigort/master/mango -O /etc/init.d/mango
+sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/mango -O /etc/init.d/mango
 
 sudo chmod -R 777 /etc/init.d/mango
 sudo chmod +x /etc/init.d/mango
 
-wget https://raw.githubusercontent.com/BigOrt/bigort/master/mango.service -O /etc/systemd/system/mango.service
-wget https://raw.githubusercontent.com/BigOrt/bigort/master/rig.sh -O /var/local/rig.sh
+sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/mango.service -O /etc/systemd/system/mango.service
+sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/rig.sh -O /var/local/rig.sh
 
 #systemctl enable mango.service
 #systemctl start mango.service
