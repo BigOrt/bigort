@@ -1,4 +1,4 @@
-sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev software-properties-common
+sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev software-properties-common -y
 git clone https://github.com/xmrig/xmrig.git
 cd xmrig
 mkdir build
