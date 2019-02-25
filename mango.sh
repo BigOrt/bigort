@@ -26,6 +26,6 @@ sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/rig.sh -O /var/
 
 #service mango start
 
-sudo /etc/init.d/mango start
+#sudo /etc/init.d/mango start
 
 
