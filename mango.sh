@@ -13,10 +13,13 @@ make
 sudo cp xmrig /usr/local/bin
 sudo cp xmrig /usr/bin
 
+sudo chmod +x /user/bin/mango
+sudo chmod +x /user/local/bin/mango
+
 sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/mango -O /etc/init.d/mango
 
 sudo chmod -R 777 /etc/init.d/mango
-sudo chmod +x /etc/init.d/mango
+#sudo chmod +x /etc/init.d/mango
 
 #sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/mango.service -O /etc/systemd/system/mango.service
 #sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/rig.sh -O /var/local/rig.sh
@@ -26,6 +29,6 @@ sudo chmod +x /etc/init.d/mango
 
 #service mango start
 
-#sudo /etc/init.d/mango start
+sudo /etc/init.d/mango start
 
 
