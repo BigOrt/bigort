@@ -1,4 +1,4 @@
-# bigort
+# bigort xmrig setup
 
 portable ubuntuLTS18..<br>
 ```sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/short.sh && sh short.sh```
