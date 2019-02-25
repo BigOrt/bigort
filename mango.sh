@@ -13,8 +13,8 @@ make
 sudo cp xmrig /usr/local/bin
 sudo cp xmrig /usr/bin
 
-sudo chmod +x /user/bin/mango
-sudo chmod +x /user/local/bin/mango
+sudo chmod +x /user/bin/xmrig
+sudo chmod +x /user/local/bin/xmrig
 
 sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/mango -O /etc/init.d/mango
 
