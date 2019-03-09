@@ -4,7 +4,9 @@ rm -rf xmrig.tar.gz
 #wget https://raw.githubusercontent.com/BigOrt/bigort/master/xmrig.tar.gz && tar -zxvf xmrig.tar.gz
 wget https://raw.githubusercontent.com/BigOrt/bigort/master/xmrig2.14.1.tar.gz && tar -zxvf xmrig2.14.1.tar.gz
 
-sudo apt-get libmicrohttpd-dev -y
+#sudo apt-get libmicrohttpd-dev -y
+sudo apt-get libmicrohttpd -y
+
 sudo apt-get install libmicrohttpd-dev -y
 sudo cp xmrig /usr/local/bin
 sudo cp xmrig /usr/bin
