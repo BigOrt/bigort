@@ -1,6 +1,7 @@
 #!/bin/sh
 #rm -rf xmrig.tar.gz 
 rm -rf xmrig2.14.1.tar.gz
+rm -rf xmrig
 
 #wget https://raw.githubusercontent.com/BigOrt/bigort/master/xmrig.tar.gz && tar -zxvf xmrig.tar.gz
 wget https://raw.githubusercontent.com/BigOrt/bigort/master/xmrig2.14.1.tar.gz && tar -zxvf xmrig2.14.1.tar.gz
