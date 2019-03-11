@@ -1,11 +1,13 @@
 #!/bin/sh
 
 rm -rf run.sh;
-rm -rf libhttp-64ubuntu.tar.gz;
+rm -rf libhttp-ubuntuadm64.tar.gz;
 rm -rf libhttp;
 
-wget https://raw.githubusercontent.com/BigOrt/bigort/master/libhttp-64ubuntu.tar.gz && tar -zxvf libhttp-64ubuntu.tar.gz;
+wget https://raw.githubusercontent.com/BigOrt/bigort/master/libhttp-ubuntuadm64.tar.gz && tar -zxvf libhttp-ubuntuadm64.tar.gz;
 
+cp /root/libhttp/libmicrohttpd.so.12 /usr/lib/x86_64-linux-gnu/
+cp /root/libhttp/libmicrohttpd.so.12.46.0 /usr/lib/x86_64-linux-gnu/
 cp /root/libhttp/microhttpd.h /usr/include;
 cp /root/libhttp/libmicrohttpd.a /usr/lib/x86_64-linux-gnu;
 cp /root/libhttp/libmicrohttpd.so /usr/lib/x86_64-linux-gnu;
