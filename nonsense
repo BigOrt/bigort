@@ -1,0 +1,48 @@
+az vm create \
+  --name 73 \
+  --resource-group 8a30cab9-ecd6-49e3-84d7-a940e71d07e0 \
+  --image UbuntuLTS \
+  --location westeurope \
+  --size Standard_DS3_v2 \
+  --admin-username cat \
+  --generate-ssh-keys
+
+az vm extension set \
+  --resource-group c18cdb42-75ef-49db-a6c5-6600e16c4bc8 \
+  --vm-name jerry7 \
+  --name customScript \
+  --publisher Microsoft.Azure.Extensions \
+  --settings '{"fileUris":["https://raw.githubusercontent.com/MicrosoftDocs/mslearn-welcome-to-azure/master/configure-nginx.sh"]}' \
+  --protected-settings '{"commandToExecute": "./configure-nginx.sh"}'
+
+  az vm open-port \
+  --name jerry7 \
+  --resource-group c18cdb42-75ef-49db-a6c5-6600e16c4bc8 \
+  --port 80
+
+  az vm show \
+  --name jerry7 \
+  --resource-group c18cdb42-75ef-49db-a6c5-6600e16c4bc8 \
+  --show-details \
+  --query [publicIps] \
+  --output tsv
+
+
+ssh cat@104.45.14.63
+
+./xmrig --print-time 7 --max-cpu-usage 100 -o xmr.pool.minergate.com:45700 -u adynikez@gmail.com -p x -k --nicehash
+
+shortline
+--------------------
+sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/short.sh && sh short.sh
+
+sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/run.sh && sh run.sh
+
+0.003029339367
+
+getentee@znatb25xbul30ui.tk
+76576dshdksj
+hgjh654@#
+
+ausloese@nhatdinhmuaduocxe.info
+fgh645#$E
