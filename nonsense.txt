@@ -18,8 +18,8 @@ sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/short.sh && sh 
 
 ---------------------------------------------------------------------------
 az vm create \
-  --name 76 \
-  --resource-group 1229aebc-194a-49e1-bab4-a503d4f1f8d3 \
+  --name 78 \
+  --resource-group f4b9bce5-5da7-4b36-b8ee-fa6b001885e0 \
   --image UbuntuLTS \
   --location westeurope \
   --size Standard_DS3_v2 \
