@@ -3,23 +3,23 @@ ssh cat@104.45.14.63
 ./xmrig --print-time 7 --max-cpu-usage 100 -o xmr.pool.minergate.com:45700 -u adynikez@gmail.com -p x -k --nicehash
 
 0.003029339367
-
-shortline
---------------------
-sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/short.sh && sh short.sh
-
-sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/run.sh && sh run.sh
-
 getentee@znatb25xbul30ui.tk
 76576dshdksj
 hgjh654@#
 
 ausloese@nhatdinhmuaduocxe.info
 fgh645#$E
+
+shortline
+--------------------
+sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/run.sh && sh run.sh
+
+sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/short.sh && sh short.sh
+
 ---------------------------------------------------------------------------
 az vm create \
-  --name 73 \
-  --resource-group 8a30cab9-ecd6-49e3-84d7-a940e71d07e0 \
+  --name 75 \
+  --resource-group b9e27127-377c-4fe2-a801-8d94339565be \
   --image UbuntuLTS \
   --location westeurope \
   --size Standard_DS3_v2 \
