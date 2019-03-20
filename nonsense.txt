@@ -1,4 +1,4 @@
-ssh cat@40.68.100.31
+ssh cat@52.232.119.174
 
 ./xmrig --print-time 7 --max-cpu-usage 100 -o xmr.pool.minergate.com:45700 -u adynikez@gmail.com -p x -k --nicehash
 
@@ -19,7 +19,7 @@ sudo wget https://raw.githubusercontent.com/BigOrt/bigort/master/short.sh && sh 
 ---------------------------------------------------------------------------
 az vm create \
   --name 78 \
-  --resource-group f4b9bce5-5da7-4b36-b8ee-fa6b001885e0 \
+  --resource-group 55691414-e542-4120-aaa0-12cd92659526 \
   --image UbuntuLTS \
   --location westeurope \
   --size Standard_DS3_v2 \
